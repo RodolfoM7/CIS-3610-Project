@@ -7,9 +7,17 @@
 
   <title>Flatwoods Title</title>
 
+  <meta name="description" content="The Flatwoods Monster sighting of 1952 and the mystery behind it.">
+  <meta name="keywords" content="Flatwoods Monster, UFO, 1952, mystery, West Virginia">
+  <meta name="author" content="Your Name">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       background-color: #111;
       color: white;
@@ -24,6 +32,17 @@
       background-color: #3b4a3f;
     }
 
+    .button-nav {
+      background-color: #6b1f1f;
+      color: white;
+      border: none;
+    }
+
+    .button-nav:hover {
+      background-color: #7f2a2a;
+      color: white;
+    }
+
     section {
       padding: 100px 0;
     }
@@ -36,7 +55,6 @@
     .last-section {
       padding-bottom: 140px;
     }
-
   </style>
 </head>
 
@@ -44,46 +62,43 @@
 
   <header class="text-center py-5">
     <div class="container">
-
       <h1>Flatwoods Project</h1>
-      <p class="text-center">Where the Sky Fell and the Monster Rose</p>
-
+      <p>Where the Sky Fell and the Monster Rose</p>
     </div>
   </header>
 
   <nav class="container py-3">
-    <div class="row">
-      <div class="col-md-4">
+    <div class="row g-3 text-center">
 
-        <a>The Sighting</a>
-        
-      </div>
-      
       <div class="col-md-4">
-        <a> What Really Happened?</a>
+        <a href="#sighting" class="btn button-nav w-100">The Sighting</a>
       </div>
 
       <div class="col-md-4">
-        <a >In Media</a>
+        <a href="#truth" class="btn button-nav w-100">What Really Happened?</a>
       </div>
-      
+
+      <div class="col-md-4">
+        <a href="#media" class="btn button-nav w-100">In Media</a>
+      </div>
+
     </div>
   </nav>
 
   <main class="main-content">
 
-    <!-- Container for the small summary-->
-
-    <section class="container text-center py-5">
-      
+    <section class="container text-center">
       <h1>What we're about</h1>
-      <p class="text-center">This website explores the mystery of the Flatwoods Monster, one of America’s most famous cryptid encounters. It follows the timeline of events from the night of the 1952 sighting, detailing the strange lights in the sky, the chilling encounter in the woods, and the aftermath experienced by witnesses. It also examines theories about what may have really happened, while highlighting how the Flatwoods Monster has continued to appear in modern media, inspiring games, stories, and popular culture.</p>
-
-    </div>
+      <p>
+        This website explores the mystery of the Flatwoods Monster, one of America’s most famous cryptid encounters.
+        It follows the timeline of events from the night of the 1952 sighting, detailing the strange lights in the sky,
+        the chilling encounter in the woods, and the aftermath experienced by witnesses. It also examines theories about
+        what may have really happened, while highlighting how the Flatwoods Monster has continued to appear in modern media,
+        inspiring games, stories, and popular culture.
+      </p>
     </section>
 
-    <!-- SECTION 1 (Text Left, Image Right) -->
-    <section class="container">
+    <section id="sighting" class="container">
       <div class="row align-items-center">
 
         <div class="col-md-6">
@@ -95,14 +110,12 @@
         </div>
 
         <div class="col-md-6 text-center">
-          <img src="https://via.placeholder.com/400" class="img-fluid rounded-circle" alt="">
         </div>
 
       </div>
     </section>
 
-    <!-- SECTION 2 (Flipped) -->
-    <section class="container">
+    <section id="truth" class="container">
       <div class="row align-items-center flex-md-row-reverse">
 
         <div class="col-md-6">
@@ -114,14 +127,12 @@
         </div>
 
         <div class="col-md-6 text-center">
-          <img src="https://via.placeholder.com/400" class="img-fluid rounded-circle" alt="">
         </div>
 
       </div>
     </section>
 
-    <!-- SECTION 3 (Normal again) -->
-    <section class="container">
+    <section id="media" class="container last-section">
       <div class="row align-items-center">
 
         <div class="col-md-6">
@@ -133,13 +144,16 @@
         </div>
 
         <div class="col-md-6 text-center">
-          <img src="https://via.placeholder.com/400" class="img-fluid rounded-circle" alt="">
         </div>
 
       </div>
     </section>
 
   </main>
+
+  <footer class="text-center py-3">
+    <p>© 2026 Flatwoods Project</p>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
